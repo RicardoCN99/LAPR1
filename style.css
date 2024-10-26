@@ -2,12 +2,14 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    height: 97vh;
-    width: 97vw;
+    height: 100%;
+    width: 100%;
     margin: 0;
-    background-image: linear-gradient(to top, rgb(158, 202, 158), rgb(232, 238, 231));
+    background-image: url(pexels-felixmittermeier-957024.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
 }
 
 
@@ -25,52 +27,38 @@ menu{
 menu p{
     margin: 5px;
     padding: 5px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.655);
     border-radius: 3px;
 }
 
 menu p:hover{
-    background-color: green;
+    background-color: rgba(0, 128, 0, 0.521);
     transition: background-color .5s;
 }
 
-.sec1{
+section{
     flex-direction: column;
     text-align: end;
     display: flex;
     justify-content: start;
     padding-bottom: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 255, 255, 0.351);
 }
 
-.sec1 p,h2{
+section p,h2{
  width: 70%;
  text-align: center;
 }
 
 .sec2{
-    background-color: blue;
-    flex-direction: column;
-    text-align: end;
-    display: flex;
+    background-color: rgba(0, 0, 255, 0.31);
     justify-content: center;
     align-items: flex-end;
-    padding-bottom: 50px;
+ 
 }
 
-.sec2  p,h2{
- width: 70%;
- text-align: center;
-}
 
-.sec3{
-    flex-direction: column;
-    text-align: end;
-    display: flex;
-    justify-content: start;
-    padding-bottom: 50px;
-}
 
-.sec3 p,h2{
- width: 70%;
- text-align: center;
-}
+
